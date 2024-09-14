@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: white;
+    overflow-x: hidden;
+    background-image: url('https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png');
+    /* Prevent scrollbars due to floating elements */
+}
+.header {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+}
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.quote{
+    font-size:40px;
+    /* color:darkred; */
+}
+.start{
+    font-size:25px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #007BFF;
+}
+.navbar a:hover {
+    background-color: #0056b3;
+}
+body{
+    background-image: url('https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png');
+}
+.button-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.button{
+    background-color: rgb(174, 212, 212);
+    border: solid 5px;
+    color:black;
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:16px ;
+    margin:10px;
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+    font-size: 42px;
+}
+body{
+    text-align: center;
+}
+h2{
+font-size: 50px;
+color: white;
+}
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+.img1,.img2,.img3,.img4,.img5{
+    height:200px;
+    width:200px;
+    animation:floating 4s infinite;
+    /* animation: ease-out 4s infinite; */
+}
+.img1{
+    position: absolute;
+    left:30px;
+    top:200px;
+}
+.img2{
+    position: absolute;
+    left:200px;
+    top:400px;
+}
+.img3{
+    position: absolute;
+    left:20px;
+    top:650px;
+}
+.img4{
+    position: absolute;
+    left:500px;
+    top:200px;
+}
+.img5{
+    position: absolute;
+    left:420px;
+    top:530px;
+}
+.rightbox{
+    background-color:whitesmoke;
+    background-image: url(https://img.freepik.com/premium-photo/kid-virtual-class-future-education-system-ai-generated_599862-1329.jpg);
+    /* opacity:20%; */
+    color: white;
+    height:500px;
+    width:500px;
+    position:relative;
+    top:50px;
+    right:-50%;
+    border-radius: 10%;
+    padding: 80px;
+}
+.input{
+    background-color: tomato;
+    border:none;    
+    border-radius:20px;
+    color:white;
+    height:40px;
+    width:150px;
+    margin-left:60px;
+    margin-top:30px;
+}
+@keyframes floating{
+    0% {
+        transform:translateY(0px);
+    }
+    50%{
+        transform: translateY(2 0px);
+    }
+}
+@keyframes floating{
+    0% {
+        transform:translateY(0px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    font-size: 2em;
+    color: #007BFF;
+}
+.section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.resources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color:black;
+}
+.resource {
+    flex: 1;
+    min-width: 200px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.resource h3 {
+    margin-top: 0;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+}
+
